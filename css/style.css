@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+header .left a{
+ color: black;
+ text-decoration: none;
+margin-left: 2rem;
+}
+header .left a:hover{
+    color: white;
+    text-decoration: none;
+   margin-left: 2rem;
+ color: #f4ab5e;
+   }
+header .all{
+padding-top: 3rem;
+}
+#first{
+    background-image: url(https://www.simbrella.com/site/assets/files/1040/cover.jpg);
+padding: 24rem 0rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#first .general{
+padding: 0rem 50rem 0rem 0rem;
+color: white;
+
+}
+#first .general h1{ 
+    margin-bottom: 2rem;
+}
+ @media(max-width:576px){
+    #first .general{
+        padding-right: 12rem;
+    }
+    #first{
+        padding: 1rem 0rem;
+        background-position: -19rem 0rem;
+    }
+    header .left{
+        display: none;
+    }
+    header .right{
+        padding-left: 1rem;
+    }
+    header .all{
+        padding-top:1rem;
+    }
+    #first .general h1{
+        padding-top: 10rem;
+        font-size: 20px;
+    }
+ }
